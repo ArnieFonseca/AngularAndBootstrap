@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --nav-background-color: #fb4b45;
+    --nav-dropdown-background-color: #c75f5b;   
+     
+  }
