@@ -9,4 +9,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'demo';
+
+  /**
+   * Exit from the Application
+   */
+  exitApplication() {
+ 
+    //window.location.href = 'https://www.msn.com/'; // Navigates to a blank page
+    window.location.href = window.location.origin
+  }
 }
