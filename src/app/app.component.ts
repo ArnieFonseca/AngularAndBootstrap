@@ -5,7 +5,6 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'demo';
@@ -16,6 +15,6 @@ export class AppComponent {
   exitApplication() {
  
     //window.location.href = 'https://www.msn.com/'; // Navigates to a blank page
-    window.location.href = window.location.origin
+    window.location.href = 'http://www.google.com/'
   }
 }
